@@ -6,7 +6,7 @@ var handler = function(request, response)
 {
         console.log("received request");
         response.writeHead(200);
-        response.end("Container Hostname: " + os.hostname() + "change jenkins");
+        response.end("Container Hostname: " + os.hostname() + "git test change jenkins");
 }
 
  var www = http.createServer(handler);
